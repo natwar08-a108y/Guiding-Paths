@@ -1,4 +1,4 @@
-**Key Features Included:**
+<img width="1080" height="2400" alt="1" src="https://github.com/user-attachments/assets/31fe8861-777f-4771-a13c-31f902784122" />**Key Features Included:**
 
  
 1. Session-Based "Start Journey" & Privacy-First Monitoring:-To ensure absolute privacy and prevent constant surveillance, safety monitoring is strictly session-based. Tourists manually initiate a "Journey." During this active session, **on-device AI** locally processes microphone audio to detect distress sounds (without ever uploading voice data to the cloud). Once the user safely reaches their destination and ends the journey, all monitoring instantly shuts down and temporary session data is cleared. 
@@ -26,3 +26,16 @@ Famous tourist spots, festivals, and temples can sometimes get dangerously crowd
 10. AI Chatbot & Real-Time Translator:- An integrated conversational agent to provide instant safety guidance, alongside a real-time translator to break down language barriers during critical situations. 
 
 11. Emergency Contact & Social Tracking:- Manages prioritised contacts for automated emergency notifications, alongside an opt-in social map for real-time location sharing and coordination among tourist groups. 
+
+<img width="1080" height="2525" alt="10" src="https://github.com/user-attachments/assets/73ba74e8-af68-4caa-95e7-6db22b5049aa" />
+<img width="1080" height="2400" alt="9" src="https://github.com/user-attachments/assets/0129efc6-9a09-4629-b1f8-3ff4432fb4ef" />
+<img width="1080" height="2400" alt="8" src="https://github.com/user-attachments/assets/991f1fb4-a114-4973-91d6-e51b8d646581" />
+<img width="1080" height="2400" alt="7" src="https://github.com/user-attachments/assets/14693d72-cc67-4255-9958-e5d9cd6d3e06" />
+<img width="1080" height="2400" alt="6" src="https://github.com/user-attachments/assets/31af73a5-4d02-4f9e-9d3a-fdbb3e2a924a" />
+<img width="1080" height="2400" alt="5" src="https://github.com/user-attachments/assets/11f29c32-6bca-4452-bcfe-8ab59cc968aa" />
+<img width="1080" height="2400" alt="4" src="https://github.com/user-attachments/assets/07613474-79c2-43a8-b7ba-676e4076fb97" />
+<img width="1080" height="2400" alt="3" src="https://github.com/user-attachments/assets/2f10b6fd-0eef-4d71-ac6d-3ffff2a62b66" />
+<img width="1076" height="3792" alt="2_" src="https://github.com/user-attachments/assets/e001f736-7e7b-49c2-9368-1907a99b5968" />
+<img width="1080" height="2400" alt="1" src="https://github.com/user-attachments/assets/ca4e8f57-5499-4225-84fd-c236a42d6d2a" />
+<img width="1080" height="2400" alt="1" src="https://github.com/user-attachments/assets/b7ca099e-887f-49b9-b45f-f1103541d16a" />
+
