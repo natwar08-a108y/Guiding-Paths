@@ -1,133 +1,280 @@
-# 🧭 Guiding Paths
-### Intelligent Tourist Safety & Emergency Response Platform
+<div align="center">
 
-<p align="center">
-  <strong>Explore Freely. Travel Safely. Get Help When It Matters.</strong>
-  <br/>
-  An AI-powered safety ecosystem connecting tourists, nearby helpers, and emergency responders—even when connectivity fails.
-</p>
+# 🧭 GUIDING PATHS
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI-On--Device%20Intelligence-7C3AED?style=flat-square" />
-  <img src="https://img.shields.io/badge/Navigation-Augmented%20Reality-0284C7?style=flat-square" />
-  <img src="https://img.shields.io/badge/Emergency-Offline%20Resilience-DC2626?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Privacy%20%26%20Safety-059669?style=flat-square" />
-</p>
+### Safety that moves with you.
+
+**An intelligent tourist safety platform built for the moments when ordinary navigation and emergency systems fall short.**
+
+AI-powered protection · Offline emergency communication · AR navigation · Accountable response
+
+<br/>
+
+![Android](https://img.shields.io/badge/Platform-Android-101828?style=flat-square&logo=android&logoColor=3DDC84)
+![AI](https://img.shields.io/badge/Intelligence-On--Device%20AI-101828?style=flat-square&logo=tensorflow&logoColor=FF6F00)
+![Navigation](https://img.shields.io/badge/Navigation-AR%20Powered-101828?style=flat-square&logo=googlemaps&logoColor=4285F4)
+![Privacy](https://img.shields.io/badge/Design-Privacy--First-101828?style=flat-square&logo=shieldsdotio&logoColor=FFFFFF)
+
+<br/>
+
+**Explore freely. Travel safely. Get help when it matters.**
+
+</div>
 
 ---
 
-## 📍 The Idea Behind Guiding Paths
+## The problem isn't always knowing where you are.
 
-Travel should be about discovering new places—not worrying about what might go wrong.
+Sometimes, it's being unable to reach your group.
+Sometimes, it's facing danger without time to press an SOS button.
+Sometimes, there's no internet, no familiar language, and no clear way out.
 
-Traditional safety applications often depend on an active internet connection, manual emergency reporting, and conventional navigation. But what happens when a traveler gets separated from their group in a crowded bazaar, encounters danger in an unfamiliar street, loses connectivity during a trek, or needs to report an incident in a language they do not understand?
+Conventional safety applications often depend on connectivity, manual intervention, and traditional maps. Guiding Paths takes a different approach: bringing intelligent threat detection, resilient communication, safety-aware navigation, and emergency accountability into one connected experience.
 
-**Guiding Paths is designed to address these gaps through a unified, intelligent safety platform.**
+**Our goal:** make tourist safety more proactive, accessible, and resilient—even in challenging environments.
 
-By combining on-device machine learning, Bluetooth-based peer-to-peer communication, augmented-reality navigation, emergency intelligence, and tamper-evident evidence records, the project aims to move tourist safety from reactive assistance toward proactive, resilient protection.
+---
 
-## 🗺️ Navigate the Project
+## Three capabilities. One safety ecosystem.
 
-| Section | What's inside |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 01 / Stay Connected
+
+**Emergency communication beyond network coverage.**
+
+A proposed Bluetooth-based peer-to-peer relay network forwards encrypted SOS and location packets through nearby participating devices.
+
+- Group reunification
+- Hyperlocal emergency broadcasts
+- Multi-hop message relaying
+- Internet-assisted SOS delivery
+
+</td>
+<td width="33%" valign="top">
+
+### 02 / Detect Danger
+
+**AI that looks for signs of distress.**
+
+On-device machine learning analyzes supported audio and motion signals during an explicitly activated journey.
+
+- Scream and distress detection
+- Motion anomaly recognition
+- Configurable emergency triggers
+- Privacy-conscious local inference
+
+</td>
+<td width="33%" valign="top">
+
+### 03 / Find Safety
+
+**Navigation designed around the situation.**
+
+Augmented reality and hazard-aware routing help travelers find suitable safe locations without constantly looking down at a map.
+
+- AR Green Path
+- Verified safe havens
+- Hazard-geofence avoidance
+- Offline landmark guidance
+
+</td>
+</tr>
+</table>
+
+---
+
+## The safety experience
+
+### 01 — Journey-aware protection
+
+Monitoring should be a choice, not a permanent background activity.
+
+A tourist manually starts a journey. During that session, supported on-device AI processes microphone audio and motion data for configured safety signals. Raw microphone recordings are not uploaded to the cloud by the local monitoring engine.
+
+When the tourist ends the journey, monitoring stops and temporary session data is cleared according to the application's retention policy.
+
+**Start when needed. Monitor locally. Stop when finished.**
+
+### 02 — An offline safety network
+
+A lost connection should not automatically mean a lost opportunity to get help.
+
+Guiding Paths proposes a Bluetooth-based P2P relay system for forwarding encrypted emergency packets between nearby compatible devices.
+
+| Capability | Intended behavior |
 |---|---|
-| [Core Innovations](#-three-innovations-that-define-guiding-paths) | Offline mesh, predictive safety, AR navigation |
-| [Complete Feature Set](#-the-complete-safety-ecosystem) | All 10 major capabilities |
-| [Journey Workflow](#-from-journey-to-emergency-response) | How the safety system works |
-| [Technology Architecture](#️-technology-architecture) | Technologies and integrations |
-| [Privacy & Security](#-privacy-security--trust) | Data protection and accountability |
-| [Development Roadmap](#-implementation-roadmap) | Suggested implementation stages |
+| Group reunification | Relay location packets to help separated travelers reconnect with their group. |
+| Hyperlocal SOS | Broadcast distress messages to compatible participating devices within a target radius of **200–300 metres**. |
+| Multi-hop relay | Forward packets through intermediate devices when direct connectivity is unavailable. |
+| Emergency escalation | When a packet reaches an internet-connected relay device, forward the SOS to the configured emergency service. |
+| Offline guidance | Use pre-downloaded maps and landmarks to help the traveler navigate without internet access. |
+
+The network is intended to support nearby assistance from participating tourists or locals and improve the chances of emergency delivery in connectivity dead zones.
+
+*Bluetooth relaying cannot guarantee delivery. Multi-hop routing, device discovery, message authentication, packet expiry, duplicate suppression, encryption, and Android background execution require implementation and real-device testing.*
+
+### 03 — Women's safety ML engine
+
+An emergency may unfold faster than a person can unlock their phone.
+
+The proposed on-device anomaly detection engine evaluates relevant sensor signals during an active journey to identify potential distress.
+
+- **Audio intelligence:** Recognize supported distress signatures, including screams, and configurable trigger phrases where speech recognition is implemented.
+- **Motion intelligence:** Detect unusual movement patterns, including sudden falls, abrupt acceleration, or other configured anomalies.
+- **Inactivity monitoring:** Support prolonged-inactivity triggers when the required conditions and safeguards are satisfied.
+- **Automated SOS:** Initiate an emergency workflow when defined model-confidence and risk thresholds are met.
+
+The system must account for environmental noise, unusual but harmless movement, model uncertainty, and false alarms. Automated detection indicates potential danger; it does not prove that an assault or emergency has occurred.
+
+### 04 — AR safe-route evasion
+
+**Look ahead, not just down.**
+
+Using Google ARCore on compatible Android devices, Guiding Paths aims to overlay a glowing virtual **Green Path** on the live camera feed.
+
+The navigation experience combines:
+
+- Directional AR guidance toward a mapped police station or verified safe haven.
+- Route selection informed by available hazard geofences.
+- Alternative-route guidance when reliable danger-zone information is available.
+- Offline landmark support when map data has been downloaded in advance.
+
+AR guidance depends on device compatibility, positioning accuracy, available maps, and trustworthy safe-location information. No route can be guaranteed safe solely because it is displayed in green.
 
 ---
 
-# 🚀 Three Innovations That Define Guiding Paths
+## Beyond navigation: the complete safety layer
 
-## 01. 📡 A Safety Network That Can Survive Without the Internet
+The remaining capabilities extend protection from finding an exit to documenting incidents and anticipating hazards.
 
-<sub>OFFLINE COMMUNICATION · BLUETOOTH · DECENTRALIZED ASSISTANCE</sub>
+<details>
+<summary><strong>05 / Smart Exit — five gates, one nearest eligible exit</strong></summary>
 
-Imagine a tourist losing contact with their group inside a crowded marketplace where mobile connectivity is unavailable. A conventional application may no longer be able to deliver location updates or emergency messages.
+Designed for large reserves, parks, crowded venues, temples, and other complex public spaces.
 
-Guiding Paths proposes a **Bluetooth-based Peer-to-Peer (P2P) relay network** that can forward encrypted emergency packets through nearby participating devices.
+- Allow users to select up to **five potential exit gates**.
+- Calculate the nearest eligible exit using available route information.
+- Enforce a strict **1.5 km safety-radius constraint**.
+- Automatically mark gates beyond that configured distance as **Out of Range**.
+- Distinguish proximity from actual route accessibility and safety.
 
-**How the offline safety network is intended to work:**
+The 1.5 km constraint is a configurable product rule. A gate within range is not necessarily safe, accessible, or reachable.
 
-- **Group reunification:** Share encrypted location packets to help separated travelers reconnect with their group.
-- **Hyperlocal SOS:** Broadcast a distress message to compatible participating devices within a target radius of **200–300 metres**, enabling nearby tourists or locals to offer assistance.
-- **Multi-hop message relay:** Forward emergency packets through intermediate devices when a direct connection is unavailable.
-- **Internet-assisted escalation:** When a packet reaches an internet-connected device in the relay chain, forward the SOS to the configured emergency service.
-- **Offline escape guidance:** Use pre-downloaded maps and landmarks to help travelers navigate when connectivity is unavailable.
+</details>
 
-The aim is to create a decentralized safety layer that can continue operating in situations where conventional cloud-dependent applications struggle.
+<details>
+<summary><strong>06 / Multi-modal SOS & transparent emergency ledger</strong></summary>
 
-> **Engineering challenge:** Reliable multi-hop delivery requires device discovery, message authentication, duplicate suppression, packet expiry, battery-aware operation, and Android background-execution handling. Bluetooth relay does not guarantee that an SOS will reach authorities.
+Emergency workflows can be initiated through:
+
+- Manual SOS activation.
+- Supported scream or distress-sound detection.
+- Prolonged inactivity when configured conditions are met.
+- Configured geofence breaches.
+
+The system is designed to capture available GPS coordinates, timestamps, trigger types, delivery status, and subsequent authority-response information where available.
+
+A blockchain-compatible, tamper-evident ledger can maintain an auditable record of SOS events and response timelines to help evaluate emergency handling and accountability.
+
+Sensitive personal information must remain protected. Public ledger records should not expose identities, precise location histories, recordings, or confidential evidence.
+
+</details>
+
+<details>
+<summary><strong>07 / Early-warning crowd & stampede risk detection</strong></summary>
+
+Large gatherings can become dangerous when crowd density increases or movement turns chaotic.
+
+The proposed crowd-risk system combines permitted, aggregated crowd-density indicators with movement-anomaly analysis to:
+
+- Identify unusual crowd concentration.
+- Detect validated patterns associated with sudden surges or chaotic movement.
+- Send **High Crowd Alerts** to tourists near affected areas.
+- Notify connected local authorities or crowd-management services.
+- Suggest alternative routes when reliable navigation data is available.
+
+Crowd density alone cannot reliably predict an imminent stampede. Useful alerts require validated data sources, suitable thresholds, and false-positive management.
+
+</details>
+
+<details>
+<summary><strong>08 / AI-powered e-FIR & tamper-evident evidence</strong></summary>
+
+Turn a natural-language incident description into a structured report while preserving the ability to verify whether its recorded contents have changed.
+
+- Organize incident descriptions into structured fields.
+- Capture relevant facts, locations, timestamps, and supporting multimedia.
+- Suggest potentially relevant **Bharatiya Nyaya Sanhita (BNS)** provisions, subject to legal verification.
+- Generate **SHA-256 cryptographic hashes** of the e-FIR draft and supporting evidence.
+- Record hashes and suitable audit metadata in a protected ledger.
+- Allow users to review the report before submission through an authorized channel.
+
+A matching hash helps verify file consistency against the recorded hash; it does not independently prove that evidence is genuine or that its contents are truthful.
+
+An AI-generated draft is not an officially registered FIR. Registration depends on the applicable legal procedure and authorized channels.
+
+</details>
+
+<details>
+<summary><strong>09 / Real-time disaster alerts — NDMA SACHET</strong></summary>
+
+Guiding Paths aims to integrate with the National Disaster Management Authority's **SACHET** alert platform.
+
+- Parse supported **Common Alerting Protocol (CAP)** messages from an accessible SACHET RSS or other supported feed.
+- Match warnings against the user's location and affected geographical area.
+- Present relevant alerts for floods, cyclones, earthquakes, and other supported hazards.
+- Display available severity, affected locations, timing, and official safety instructions.
+- Help travelers reconsider routes or destinations affected by active warnings.
+
+Feed availability, update frequency, location matching, and delivery depend on the actual integration. Previously downloaded alerts cannot guarantee notification of new disasters while offline.
+
+</details>
+
+<details>
+<summary><strong>10 / AI safety assistant & real-time translator</strong></summary>
+
+An integrated conversational assistant aims to reduce uncertainty and language barriers in unfamiliar environments.
+
+- Answer travel-safety questions and explain emergency procedures.
+- Provide context-aware guidance using permitted journey information.
+- Translate between supported languages.
+- Help users communicate essential emergency phrases.
+- Support voice interaction where implemented.
+- Prioritize verified information and official instructions in critical situations.
+
+AI-generated guidance should complement, not replace, emergency services or authoritative disaster warnings.
+
+</details>
 
 ---
 
-## 02. 🛡️ Predictive Safety With On-Device Machine Learning
+## How the system works
 
-<sub>WOMEN'S SAFETY · EDGE AI · MOTION & AUDIO ANALYSIS</sub>
+```mermaid
+flowchart TD
+    A["Start Journey"] --> B["Enable Selected Safety Features"]
+    B --> C["On-Device AI and Context Monitoring"]
+    C --> D{"Potential Emergency?"}
 
-A person facing danger may not have enough time—or the ability—to unlock their phone and press an emergency button.
+    D -- No --> C
+    D -- Yes --> E["Initiate SOS Workflow"]
 
-The Women's Safety ML Engine aims to identify potentially dangerous situations by analyzing relevant sensor signals during an explicitly activated journey.
+    E --> F["Capture Available Location and Event Details"]
+    F --> G{"Internet Available?"}
 
-| Signal | What the model looks for |
-|---|---|
-| Accelerometer data | Unusual movement, sudden falls, abrupt acceleration, or other configured anomalies |
-| Ambient audio | Potential distress signatures such as screams |
-| Trigger phrases | Supported emergency words or phrases, where speech recognition is implemented |
-| Inactivity | Prolonged inactivity under configured conditions |
-| Location context | Relevant geofence breaches or configured hazard conditions |
+    G -- Yes --> H["Send Through Configured Network"]
+    G -- No --> I["Attempt Bluetooth P2P Relay"]
 
-When a configured risk threshold is met, the system can initiate an SOS workflow, subject to the selected safeguards and trigger configuration.
+    I --> J{"Internet-Connected Relay Reached?"}
+    J -- Yes --> H
+    J -- No --> K["Continue Eligible Relay Attempts and Offline Guidance"]
 
-**Privacy comes first:** Supported audio and motion inference is intended to happen locally on the device. Raw microphone recordings should not be uploaded to the cloud by this monitoring feature.
+    H --> L["Configured Emergency Service"]
+    L --> M["Record Available Delivery and Response Events"]
+    K --> M
 
-The engine should account for false positives, environmental noise, different movement patterns, and the limitations of automated inference. A model's prediction is a warning signal—not definitive proof of an emergency.
-
----
-
-## 03. 🥽 Augmented Reality That Guides You Toward Safety
-
-<sub>ARCORE · SAFE-ROUTE NAVIGATION · HAZARD AVOIDANCE</sub>
-
-In an unfamiliar area at night, repeatedly looking down at a 2D map can distract a traveler from their surroundings.
-
-Guiding Paths proposes an **AR Green Path** that overlays directional navigation onto a live camera view using Google ARCore on compatible Android devices.
-
-**The experience combines three elements:**
-
-- **Green Path Guidance:** Display a virtual directional path through the camera view.
-- **Verified Safe Havens:** Identify mapped police stations and designated safe locations.
-- **Dynamic Danger Avoidance:** Use available hazard geofences to help exclude unsafe or restricted areas from recommended routes.
-
-The goal is straightforward: help users maintain awareness of their surroundings while finding an appropriate route toward safety.
-
-AR guidance depends on device compatibility, location accuracy, mapping data, and reliable information about safe locations and hazards. A route must not be presented as guaranteed safe simply because it is visually highlighted.
-
----
-
-# 🌐 The Complete Safety Ecosystem
-
-Beyond its three core innovations, Guiding Paths brings together seven additional capabilities covering emergency exits, incident accountability, crowd safety, legal documentation, disaster awareness, and communication.
-
-## 04 — 🚪 Smart Exit Intelligence
-
-**For crowded venues, parks, reserves, temples, and large public spaces.**
-
-A tourist in a large venue may know that an exit exists without knowing which exit is closest or whether it falls within a reasonable distance.
-
-Guiding Paths introduces a constrained exit-selection system:
-
-- Users can select up to **five potential exit gates**.
-- The system evaluates the candidate gates and identifies the nearest eligible exit using available route data.
-- A strict **1.5 km safety-radius constraint** classifies gates beyond the configured distance as **Out of Range**.
-- Route-aware ranking can account for navigable distance instead of relying exclusively on straight-line proximity.
-- The interface can distinguish eligible exits from distant or unavailable alternatives.
-
-**Important distinction:** The 1.5 km rule is a configurable proximity constraint. It does not establish that an exit within the radius is safe, accessible, or reachable.
-
-## 05 — 🚨 Multi-Modal SOS & Transparent Emergency Ledger
-
-A single emergency button is not sufficient for every situation. Guiding Paths is designed to support multiple trigger mechanisms
+    C --> N["End Journey"]
+    N --> O["Stop Monitoring and Clear Temporary Session Data"]
